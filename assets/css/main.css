@@ -1,0 +1,146 @@
+.logo-edit{
+    width: 250px;
+}
+.footer-logo-edit{
+    width: 160px;
+    height: 50px;
+}
+.counter-container {
+    border-left: 2px solid #ccc; /* left border */
+    border-right: 2px solid #ccc; /* right border */
+    border-radius: 20px; /* border radius */
+    padding: 10px; /* adjust padding as needed */
+    text-align: center; /* center align content */
+  }
+  /* Media query for smaller screens */
+@media (max-width: 767px) {
+    .counter-container {
+        /* Reduce padding for smaller screens */
+        padding: 1px; /* Adjust padding as needed */
+    }
+}
+  .counter {
+    font-size: 25px;
+    margin-top: 10px;
+    align-items: center;
+  }
+i{
+    color: white;
+    font-size: 25px;
+}
+#center-button{
+  display: flex;
+  justify-content: center; /* Centers horizontally in the container */
+  align-items: center; /* Centers vertically if you want full centering */
+  height: 100%; /* Optional: Set a specific height if needed */
+}
+.focustitle{
+
+  font-family: var(--cleenhearts-font, "DM Sans", sans-serif);
+  color: var(--cleenhearts-purple, #965995);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+
+}
+.hideimage {
+  display: block; /* Show on desktop by default */
+}
+
+@media (max-width: 767px) {
+  .hideimage {
+      display: none; /* Hide on screens smaller than 768px */
+  }
+}
+.iconimage{ 
+  width: 12%;   /* This makes the image width responsive to the container width */
+  height: auto;  /* This preserves the image's aspect ratio */
+  display: block; /* Prevents any unwanted space below the image as part of inline behavior */
+}
+.whitecolor{
+  color: white;
+}
+.sec-title__taglinee::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+}
+
+.sec-title__taglinee::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -18px;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  border: 1px solid white;
+  z-index: 1;
+}
+.faq-one__bg1{
+  background-color: var(--cleenhearts-white, #fff);
+}
+.faq-one--about .accordion-titlee{
+  background-color: #2DA6CC;
+}
+.faq-one--about .accordion-contentt .innerr {
+  background-color: #2DA6CC;
+}
+.cleenhearts-accordion .active .accordion-titlee h4 {
+  color: white;
+}
+.cleenhearts-accordion .accordion-titlee h4 {
+ color: white;
+}
+.cleenhearts-accordion .accordion-contentt p {
+  margin: 0;
+  text-transform: capitalize;
+  color: white;
+}
+.cleenhearts-accordion .accordion-title__iconn {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  transform: translateY(-50%);
+}
+.cleenhearts-accordion .accordion-title__iconn::after,
+.cleenhearts-accordion .accordion-title__iconn::before {
+    width: 2px;
+    height: 14px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    content: "";
+    transform: translate(-50%, -50%);
+    transition: all 500ms ease;
+    border-radius: 50px;
+}
+.cleenhearts-accordion .accordion-title__iconn::after {
+  width: 14px;
+  height: 2px;
+  border-radius: 50px;
+}
+.cleenhearts-accordion .active .accordion-title__iconn::after,
+.cleenhearts-accordion .active .accordion-title__iconn::before {
+    background-color: white;
+    opacity: 0;
+}
+
+.cleenhearts-accordion .active .accordion-title__iconn::after {
+  opacity: 1;
+}
+.client-carousel__item__img{
+  height:500px
+}
