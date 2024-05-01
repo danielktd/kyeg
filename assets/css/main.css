@@ -144,3 +144,9 @@ i{
 .client-carousel__item__img{
   height:500px
 }
+.projectimg{
+  height: 248px;
+}
+.teamimg{
+  height: 360px;
+}
