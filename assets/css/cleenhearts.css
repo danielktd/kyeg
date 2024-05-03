@@ -9762,9 +9762,9 @@ body.megamenu-popup-active .mobile-nav__content {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: cover; /* Adjust this from contain to cover */
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; /* Ensures the image centers well */
     transform: scale(1);
     transition: transform 10000ms ease, -webkit-transform 10000ms ease;
     overflow: hidden;
@@ -11351,8 +11351,10 @@ body.megamenu-popup-active .mobile-nav__content {
     z-index: 1;
     margin-left: auto;
     margin-right: 64px;
-    width: 464px;
-    height: 464px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Optional if you want rounded corners */
 }
 
 @media (max-width: 1399px) {
@@ -11399,15 +11401,15 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .about-one__image__one {
-    width: 464px;
-    height: 464px;
-    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
 }
 
 @media (max-width: 575px) {
     .about-one__image__one {
         width: 380px;
-        height: 380px;
+        height: 300px;
     }
 }
 
@@ -19416,12 +19418,14 @@ li:hover .sidebar__comments__icon::after {
 
 .faq-one__image {
     position: relative;
+
 }
 
 .faq-one__image img {
     border-radius: 20px;
     width: 100%;
     display: block;
+    
 }
 
 .faq-one__content {
