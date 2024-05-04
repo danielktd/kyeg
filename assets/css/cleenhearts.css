@@ -9737,13 +9737,15 @@ body.megamenu-popup-active .mobile-nav__content {
     position: relative;
     z-index: 3;
     padding-top: 201px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
+    height:700px;
 }
 
 @media (max-width: 991px) {
     .main-slider-one__item {
         padding-top: 180px;
         padding-bottom: 150px;
+        height:500px;
     }
 }
 
@@ -9751,6 +9753,7 @@ body.megamenu-popup-active .mobile-nav__content {
     .main-slider-one__item {
         padding-top: 120px;
         padding-bottom: 150px;
+        height:500px;
     }
 }
 
