@@ -5811,7 +5811,7 @@ textarea {
 
 @media (max-width: 1366px) {
     .main-header__btn {
-    display: none;
+    display: flex;
     }
 }
 @media (max-width: 768px) {
