@@ -1,3 +1,16 @@
+/* Styles for small devices */
+@media only screen and (max-width: 768px) {
+  .donatelink {
+    display: inline; /* Make it visible */
+  }
+}
+
+/* Styles for desktop */
+@media only screen and (min-width: 769px) {
+  .donatelink {
+    display: none; /* Hide it */
+  }
+}
 .logo-edit{
     width: 250px;
 }
@@ -160,9 +173,19 @@ i{
   height: 550px;
   border-radius: 10px;
 }
+.responsive-img-news{
+  max-width: 85%;
+  height: 200px;
+  border-radius: 10px;
+}
 /* Media query for small devices */
 @media (max-width: 768px) {
   .responsive-img-faq {
       height: auto;
   }
+}
+.responsive-img-events{
+  max-width: 100%;
+  height: 50px;
+  border-radius: 10px;
 }
